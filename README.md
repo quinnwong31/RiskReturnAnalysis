@@ -49,7 +49,7 @@ To launch the Notebook, perform the following steps:
 
 To run the calculations in the Notebook, perform the following steps:
 
-1. Click on `crypto_arbitrage.ipynb` in the left navigation panel. This will load the notebook in Jupyter.
+1. Click on `risk_return_analysis.ipynb` in the left navigation panel. This will load the notebook in Jupyter.
 
 ![Click_Notebook](/images/jupyter_click_notebook.jpg)
 
@@ -57,17 +57,17 @@ To run the calculations in the Notebook, perform the following steps:
 
 ![Run_Notebook](/images/jupyter_run_notebook.jpg)
 
-3. Exceute Collection Phase. In this phase, the historical Bitcoin trade data is imported via csv files that are exported from Bitstamp and Coinbase.
+3. Exceute Import Phase. In this phase, fund data is imported via a csv file that contains data for four funds: 'Soros Fund Management LLC', 'Paulson & CO Inc', '', 'Tiger Global Management LLC', 'Berkshire Hathaway Inc' and the S&P 500.
 
-![Collect](/images/jupyter_collect.jpg)
+![Import](/images/jupyter_collect.jpg)
 
-4. Execute Preparation Phase. In this phase, the Bitcoin trade data is cleansed and prepared for analysis. All missing data is removed, all '$' characters under the 'Close' column are removed, the 'Close' column is converted to float datatype and any duplicate data is removed.
+4. Execute Quantitative Analysis Phase. In this phase, The analysis has several components: performance, volatility, risk, risk-return profile, and portfolio diversification. 
 
-![Prepare](/images/jupyter_prepare.jpg)
+![Quantitative Analysis](/images/jupyter_prepare.jpg)
 
-5. Execute Analysis Phase. In the last phase, we analyze and calculate arbitrage profits for different periods to see if there are any opportunities for arbitrage.
+5. Execute 'Diversify the Portfolio' Phase. 
 
-![Analyze](/images/jupyter_analyze.jpg)
+![Diversify](/images/jupyter_analyze.jpg)
 
 ## Contributors
 
