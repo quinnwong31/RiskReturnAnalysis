@@ -82,19 +82,27 @@ To run the calculations in the Notebook, perform the following steps:
 
 2. Click on the 'Run' button to execute each cell. This will execute the code in each cell and display the results.
 
-![Run_Notebook](/images/jupyter_run_notebook.jpg)
-
 3. Exceute Import Phase. In this phase, fund data is imported via a csv file that contains data for four funds: 'Soros Fund Management LLC', 'Paulson & CO Inc', '', 'Tiger Global Management LLC', 'Berkshire Hathaway Inc' and the S&P 500.
 
 ![Import](/images/jupyter_import.jpg)
 
-4. Execute Quantitative Analysis Phase. In this phase, The analysis has several components: performance, volatility, risk, risk-return profile, and portfolio diversification. 
+4. Execute Quantitative Analysis Phase. This phase consists of four sub-phases: 
+- Performance - Analyze the data to determine if any of the portfolios outperform the broader stock market, which the S&P 500 represents
+![Performance Analysis](/images/jupyter_performance.jpg)
 
-![Quantitative Analysis](/images/jupyter_quantitative_analysis.jpg)
+- Volatility - Analyze the volatility of each of the four fund portfolios and of the S&P 500 Index by using box plots
+![Volatility Analysis](/images/jupyter_volatility.jpg)
+
+- Performance - Analyze the volatility of each of the four fund portfolios and of the S&P 500 Index by using box plots
+![Risk Analysis](/images/jupyter_risk.jpg)
+
+- Risk-Return - Evaluate the risk profile of each portfolio by using the standard deviation and the beta.
+![Risk-Return Analysis](/images/jupyter_risk_return.jpg)
+
 
 5. Execute 'Diversify the Portfolio' Phase. 
 
-![Diversify](/images/jupyter_diversify.jpg)
+![Diversify](/images/jupyter_diversification.jpg)
 
 
 
