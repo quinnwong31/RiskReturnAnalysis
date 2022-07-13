@@ -1,7 +1,7 @@
 # Risk-Return Analysis
 ## Description
 
-The Risk-Return Analysis notebook provides examples of how one can use different statistical metrics, such as mean, standard deviation, variance, covariance and beta to analyze the performance and risk-return ration of different funds.   Python and its ecosystem provides several technologies, such as Jupyter, Python, pandas and numpy, to perform risk-return analysis on different investments.   In this example, we will be reviewing historical net asset value (NAV) data for four different funds and the S&P 500 Index.   The four funds that we are analyzing are: 
+The Risk-Return Analysis notebook provides examples of how one can use different statistical metrics, such as mean, standard deviation, Sharpe ratio, variance, covariance and beta to analyze the performance and risk-return ration of different funds.   Python and its ecosystem provides several technologies, such as Jupyter, Python, pandas and numpy, to perform risk-return analysis on different investments.   In this example, we will be reviewing historical net asset value (NAV) data for four different funds and the S&P 500 Index.   The four funds that we are analyzing are: 
 
 - Soros Fund Management LLC
 - Paulson & Co.Inc
@@ -82,7 +82,7 @@ To run the calculations in the Notebook, perform the following steps:
 
 2. Click on the 'Run' button to execute each cell. This will execute the code in each cell and display the results.
 
-3. Exceute Import Phase. In this phase, fund data is imported via a csv file that contains data for four funds: 'Soros Fund Management LLC', 'Paulson & CO Inc', '', 'Tiger Global Management LLC', 'Berkshire Hathaway Inc' and the S&P 500.
+3. Execute Import Phase. In this phase, fund data is imported via a csv file that contains data for four funds: 'Soros Fund Management LLC', 'Paulson & CO Inc', '', 'Tiger Global Management LLC', 'Berkshire Hathaway Inc' and the S&P 500.
 
 ![Import](/images/jupyter_import.jpg)
 
